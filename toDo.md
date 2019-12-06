@@ -11,8 +11,8 @@
         <!-- - Display all of the images on the screen. -->
     - GalleryItem
         - represents a single image in the gallery with the ability to click the image to toggle between image and description as well as the ability to like an image.
-        - pass it the individual gallery item via `props`
-        - Update the `GalleryList` to use this component to display an image.
+        <!-- - pass it the individual gallery item via `props` -->
+        <!-- - Update the `GalleryList` to use this component to display an image. -->
         - Swap the image with the description on click. Use [conditional rendering](https://reactjs.org/docs/conditional-rendering.html).
         - Display the number likes for each item and include a like button.
         - When the like button is clicked, use `Axios` to update (`PUT`) the like count `/gallery/like/:id`.
