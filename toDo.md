@@ -1,14 +1,14 @@
 - create a gallery
-- Use `axios` to retrieve (`GET`) data from to `/gallery` and store it in `App.js`.
+<!-- - Use `axios` to retrieve (`GET`) data from to `/gallery` and store it in `App.js`. -->
 - use git branching for each feature separately 
 - Components
     - App
         - represents the overall application or site 
     - GalleryList
-        - represents the gallery of images. By componentizing, we could reuse this component in different applications
-        - pass it the gallery data stored in `App` via `props`
-        - Iterate (loop over) the list of gallery data
-        - Display all of the images on the screen.
+        <!-- - represents the gallery of images. By componentizing, we could reuse this component in different applications -->
+        <!-- - pass it the gallery data stored in `App` via `props` -->
+        <!-- - Iterate (loop over) the list of gallery data -->
+        <!-- - Display all of the images on the screen. -->
     - GalleryItem
         - represents a single image in the gallery with the ability to click the image to toggle between image and description as well as the ability to like an image.
         - pass it the individual gallery item via `props`
