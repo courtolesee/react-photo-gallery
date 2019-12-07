@@ -21,8 +21,23 @@ class App extends Component {
     });
   }
 
+  // on load
   componentDidMount() {
     this.getGallery();
+  }
+
+  // likes 
+  handleLike = ( id ) => {
+    axios({
+      method: 'PUT',
+      url: `/gallery/like/${id}`
+    }).then((response) => {
+      console.log('put with:', response, id);
+      this.getGallery();
+    }).catch(( error ) => {
+      console.log( error );
+      alert('error with like');
+    })
   }
 
   // Begin Render
@@ -34,7 +49,7 @@ class App extends Component {
         </header>
         <br/>
         <p>Gallery</p>
-        <GalleryList list={this.state.gallery} />
+        <GalleryList list={this.state.gallery} like={this.handleLike} />
       </div>
     );
   }

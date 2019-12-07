@@ -21,3 +21,23 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.imageDesc {
+  background-color: rgb(151, 169, 172);
+  padding: .5%
+}
+
+.likebtn {
+}
+
+div {
+  display: grid | inline-grid;
+  padding: 2%;
+}
+
+.likes {
+  background-color: rgb(202, 211, 212);
+  padding: 0.25%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
