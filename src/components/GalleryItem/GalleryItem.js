@@ -26,8 +26,8 @@ class GalleryItem extends Component {
           <img className="imageDesc" onClick= {this.toggleImageDesc} height="300" src={this.props.image.path} alt={this.props.image.description}/>
           <br/>
           <div class="likes">
-          <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
-          <p>Likes: {this.props.image.likes}</p>
+            <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
+            <p>Likes: {this.props.image.likes}</p>
           </div>
         </div>
       )
@@ -37,8 +37,8 @@ class GalleryItem extends Component {
           <div className="imageDesc" onClick= {this.toggleImageDesc} height="300" >{this.props.image.description} </div>
           <br/>
           <div class="likes">
-          <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
-          <p>Likes: {this.props.image.likes}</p>
+            <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
+            <p>Likes: {this.props.image.likes}</p>
           </div>
         </div>
       )}
