@@ -3,7 +3,7 @@
 - use git branching for each feature separately 
 - Components
   - App
-    - represents the overall application or site 
+    <!-- - represents the overall application or site  -->
   - GalleryList
     <!-- - represents the gallery of images. By componentizing, we could reuse this component in different applications -->
     <!-- - pass it the gallery data stored in `App` via `props` -->
