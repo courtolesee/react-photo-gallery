@@ -22,9 +22,19 @@
   to { transform: rotate(360deg); }
 }
 
-.imageDesc {
+.imageDesc, .imagePhoto {
   background-color: rgb(151, 169, 172);
-  padding: .5%
+  padding: .5%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.imCards {
+  /* display: flex; */
+}
+
+.imageDesc {
+  width: 300px;
 }
 
 .likebtn {
@@ -33,7 +43,6 @@
 }
 
 div {
-  display: grid | inline-grid;
   padding: 2%;
 }
 

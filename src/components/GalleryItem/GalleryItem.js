@@ -23,25 +23,25 @@ class GalleryItem extends Component {
   render() {
     if( this.state.clickToggle === 'image' ){
       return (
-        <div >
-          <img className="imageDesc" onClick= {this.toggleImageDesc} height="300" src={this.props.image.path} alt={this.props.image.description}/>
+        <section className="imCards">
+          <img className="imagePhoto" onClick= {this.toggleImageDesc} src={this.props.image.path} alt={this.props.image.description}/>
           <br/>
           <div className="likes">
             <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
             <p>Likes: {this.props.image.likes}</p>
           </div>
-        </div>
+        </section>
       )
     } else{
       return (
-        <div >
-          <div className="imageDesc" onClick= {this.toggleImageDesc} height="300" >{this.props.image.description} </div>
+        <section className="imCards">
+          <div className="imageDesc" onClick= {this.toggleImageDesc} >{this.props.image.description} </div>
           <br/>
           <div className="likes">
             <button className="likebtn" onClick={() => this.props.like(this.props.i)}>Like</button>
             <p>Likes: {this.props.image.likes}</p>
           </div>
-        </div>
+        </section>
       )}
   }
 }
