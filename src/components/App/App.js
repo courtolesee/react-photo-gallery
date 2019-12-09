@@ -26,18 +26,28 @@ class App extends Component {
     this.getGallery();
   }
 
-  // likes 
-  handleLike = ( id ) => {
-    axios({
-      method: 'PUT',
-      url: `/gallery/like/${id}`
-    }).then((response) => {
-      console.log('put with:', response, id);
+  // likes - one way to handle
+  // handleLike = ( id ) => {
+  //   axios({
+  //     method: 'PUT',
+  //     url: `/gallery/like/${id}`
+  //   }).then((response) => {
+  //     console.log('put with:', response, id);
+  //     this.getGallery();
+  //   }).catch(( error ) => {
+  //     console.log( error );
+  //     alert('error with like');
+  //   })
+  // }
+
+  // below is quicker way to handle likes
+  handleLike = (id) => {
+    axios.put(`/gallery/like/${id}`).then(response =>{
       this.getGallery();
-    }).catch(( error ) => {
-      console.log( error );
-      alert('error with like');
-    })
+    }).catch(error =>{
+      console.log(error);
+      alert('error putting likes')
+    });
   }
 
   // Begin Render
@@ -49,6 +59,7 @@ class App extends Component {
         </header>
         <br/>
         <p className="header-p">Courtney Olesee's images from trips, hikes, hobbies, and more.</p>
+          {/* { JSON.stringify(this.state.gallery) } */}
         <GalleryList list={this.state.gallery} like={this.handleLike} />
       </div>
     );

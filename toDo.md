@@ -1,6 +1,6 @@
-- create a gallery
+<!-- - create a gallery -->
 <!-- - Use `axios` to retrieve (`GET`) data from to `/gallery` and store it in `App.js`. -->
-- use git branching for each feature separately 
+- use git branching for each feature separately - stretch
 - Components
   - App
     <!-- - represents the overall application or site  -->
