@@ -3,14 +3,19 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(30, 48, 66);
   height: 70px;
   padding: 20px;
   color: white;
+  text-align: center;
+}
+
+.header-p {
+  color:rgb(30, 48, 66);
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .App-intro {
@@ -23,23 +28,31 @@
 }
 
 .imageDesc, .imagePhoto {
-  background-color: rgb(151, 169, 172);
+  background-color: #3A6794;
   padding: .5%;
-  height: 300px;
+  border: solid white 2px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .imCards {
   /* display: flex; */
+  margin-bottom: 2%;
 }
 
 .imageDesc {
-  width: 300px;
+  width: 500px;
+  color: white;
+  text-align: center;
 }
 
 .likebtn {
-  background-color: rgb(103, 141, 85);
+  background-color: #C76861;
   color: white;
+}
+
+.likebtn:hover {
+  background-color: #7A3530;
 }
 
 div {
@@ -47,7 +60,8 @@ div {
 }
 
 .likes {
-  background-color: rgb(202, 211, 212);
+  background-color: #3A6794;
+  color: white;
   padding: 0.25%;
   margin-left: 40%;
   margin-right: 40%;
