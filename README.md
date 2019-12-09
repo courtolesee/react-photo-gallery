@@ -1,9 +1,7 @@
-# Project Name
+# Project Name: React Gallery
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+This is a gallery of photos of my hobbies, trips, hikes, etc! Made with React.
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
+Click on the image for a desctiption of the photo. Click the like button to add a like to the image! Reactstagram!
