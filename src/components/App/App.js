@@ -45,7 +45,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Image Gallery</h1>
+          <h1 className="App-title">React Image Gallery</h1>
         </header>
         <br/>
         <p className="header-p">Courtney Olesee's images from trips, hikes, hobbies, and more.</p>
