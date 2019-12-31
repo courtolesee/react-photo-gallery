@@ -11,3 +11,8 @@ Click on the image for a desctiption of the photo. Click again for the image. Cl
 - React, axios
 - gallery data stored over various components via props
 - image vs description swap done via conditional rendering
+
+## Installation
+1. Run `npm install` in your terminal
+2. Run `npm run server` in your terminal
+3. Run `npm run client` in your terminal (this will open a new browser in your tab)
