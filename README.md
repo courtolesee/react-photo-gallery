@@ -1,5 +1,5 @@
 # Project Name: React Gallery
-Duration: Weekend Challenge (2 days) for Prime Digital Academy's Tier 2 Week 11.
+Duration: Weekend Challenge (2 days) for Prime Digital Academy's Tier 2 Week 11. Created after first week working with React. 
 
 This is a gallery of photos of my hobbies, trips, hikes, etc! Made with React.
 
